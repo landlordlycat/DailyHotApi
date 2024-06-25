@@ -43,7 +43,7 @@ export type RouterType = {
     source_id: number;
     pubdate: string;
   };
-  "52pojie": {
+  discuz: {
     title: string;
     link: string;
     guid: string;
@@ -259,5 +259,52 @@ export type RouterType = {
     like_count: number;
     comment_count: number;
     created_at: number;
+  };
+  csdn: {
+    nickName: string;
+    articleTitle: string;
+    articleDetailUrl: string;
+    picList: [string];
+    hotRankScore: string;
+    period: string;
+    productId: string;
+  };
+  history: {
+    year: string;
+    title: string;
+    link: string;
+    desc: string;
+    cover: string;
+    pic_share: string;
+  };
+  hupu: {
+    tid: number;
+    title: string;
+    replies: number;
+    username: string;
+    time: string;
+    url: string;
+  };
+  sina: {
+    base: {
+      base: {
+        uniqueId: string;
+        url: string;
+      };
+    };
+    info: {
+      hotValue: string;
+      title: string;
+    };
+  };
+  "sina-news": {
+    id: string;
+    title: string;
+    media: string;
+    url: string;
+    create_date: string;
+    create_time: string;
+    top_num: string;
+    time: string;
   };
 };
